@@ -1,7 +1,7 @@
 # YouTube Channel Video Scraper  
 
 ## 📌 Project Overview  
-This Python script fetches video details from a YouTube channel using the **YouTube Data API**. It retrieves information such as video titles, URLs, view counts, upload dates, durations, and descriptions. The data is saved to a JSON file for further analysis or use. The sample ouput json file contains the output I got for my youtube channel with 3 videos. 
+This Python script fetches video details from a YouTube channel using the **YouTube Data API**. It retrieves information such as video titles, URLs, view counts, upload dates, durations, and descriptions. The data is saved to a JSON file for further analysis or use. The sample ouput json file contains the output I got for my YouTube channel with 3 videos. 
 
 ---
 
@@ -22,7 +22,7 @@ This Python script fetches video details from a YouTube channel using the **YouT
    - The **channel ID** can be fetched from **https://www.googleapis.com/youtube/v3/channels?part=id&forUsername=USERNAME&key=YOUR_API_KEY**
 2. **Process**:  
    - The script makes API requests to fetch video IDs and their metadata.  
-   - It handles pagination to ensure all videos are retrieved.  
+   - It ensure all videos of the channel are retrieved.  
 3. **Output**:  
    - A JSON file containing structured video data.  
 
