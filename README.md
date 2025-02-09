@@ -19,6 +19,7 @@ This Python script fetches video details from a YouTube channel using the **YouT
 ## 🔍 How It Works  
 1. **Input**:  
    - Provide your **YouTube Data API key** and the **channel ID** of the target YouTube channel.
+   - The **channel ID** is not similar to the channel handle.
    - The **channel ID** can be fetched from **https://www.googleapis.com/youtube/v3/channels?part=id&forUsername=USERNAME&key=YOUR_API_KEY**
 2. **Process**:  
    - The script makes API requests to fetch video IDs and their metadata.  
